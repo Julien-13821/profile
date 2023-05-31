@@ -1,0 +1,76 @@
+
+.container-responsive {
+  width: 300px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container-responsive {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container-responsive {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container-responsive{
+    width: 300px;
+  }
+}
+
+
+
+body{
+  height: 100vh;
+  background-color:#F2E3DB ;
+  color:#41644A ;
+  line-height: 1,5;
+  text-align: center;
+}
+img{
+  height: 150px;
+  width: auto;
+  border-radius: 50%;
+  padding: 20px;
+
+}
+div{
+  text-align: center;
+  border-radius:  #41644A;
+  margin: 10px auto;
+  background-color:#b2b9a9 ;
+}
+h1, h2, h3,h4{
+font-family:'Abril Fatface', cursive;
+font-family: 'Bodoni Moda', serif;
+font-family: 'Playfair', serif;
+ color: #263A29;
+}
+a{
+  color: #E86A33;
+  transition: all 0.5s;
+}
+h1{
+  font-size: larger;
+}
+h2, h3{
+  font-size: large;
+}
+a:hover{
+color: #263A29;
+}
+
+.hobbies ul{
+  list-style-type: none;
+}
+ul{
+  padding: 0%;
+}
